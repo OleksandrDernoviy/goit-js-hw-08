@@ -26,6 +26,7 @@ galleryEl.insertAdjacentHTML("beforeend", createMarkup(galleryItems))
     )
     .join("");
     }
+galleryEl.style.listStyleType = 'none'
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
